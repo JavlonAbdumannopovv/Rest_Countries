@@ -1,0 +1,132 @@
+/********************* MOBILE *********************/
+@media(max-width:1439px){
+    #body{
+        width:374px;
+        overflow-x:hidden;
+    }
+
+    .container{
+        width:340px;
+    }
+
+    .title{
+        font-size:14px;
+        line-height:20px;
+      }
+     
+    .dark_light{
+        width:84px;
+    }  
+
+    .dark_light p{
+        font-size:12px;
+        line-height:16px;
+       }
+
+    .country_head{
+        padding:0 0 32px 0;
+    }   
+
+    .country_head{
+        margin-bottom:32px;
+    }
+
+    .country_search{
+        justify-content:flex-start !important;
+    }
+
+    .search{
+        width:312px !important;
+        height:48px;
+        /* padding:0 0; */
+    }
+
+    .search input{
+        width:270px !important;
+        height:48px;
+        font-size:14px;
+    }
+
+    .country_filter{
+        height:48px;
+    }
+
+    .country_body{
+        margin:60px 0 0;
+    }
+
+    .start{
+        justify-content:center !important;
+    }
+
+    .end{
+        justify-content:center !important;
+    }
+
+    .dark-light_box{
+        justify-content:flex-end !important;
+    }
+
+    .country_filter{
+        justify-content:flex-start !important;
+        margin-top:40px;
+    }
+
+    .country_body{
+        padding:0 0 20px 0;
+    }
+
+    .country_body .grid{
+        margin:0 !important;
+    }
+
+    .country_body_block .box{
+        margin:40px 0 0 0;
+    }
+
+    .filter_down{
+        width:224px;
+        height:160px;
+        top:192px;
+        left:17px;
+    }
+
+    /*************** INTERNAL COUNTRY**************/
+    .internal_back{
+        width:100px;
+        margin:-30px 0 -50px 15px !important;
+    }
+    .internal_country_img img{
+        width:320px;
+        height:229px;
+        margin-left:10px !important;   
+        transform:scale(1.05);
+    }
+
+    .internal_country_title{
+        justify-content:flex-start !important;
+        margin-left:15px !important;
+        margin-top:30px;
+    }
+
+    .internal_country_title .title{
+        width:260px;
+    }
+
+    .internal_country_title h2{
+        font-size:28px;
+      }
+
+    .internal_country_info .flex{
+        margin:32px 0 0 -5px !important;
+    }  
+
+    .internal_border_countries div{
+        margin-top:-25px;
+    }
+
+    .internal_border_countries{
+        margin-top:-50px;
+        margin-left:-10px;
+    }
+}
